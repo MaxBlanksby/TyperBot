@@ -1,0 +1,1 @@
+make sure the code is given permission to acess keyboard, put the text that wants to be typed into the text.txt and then ajust accuracy and speed as needed. when it runs it waits five seconds for you to tab into desired location before writting
