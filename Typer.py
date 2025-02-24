@@ -22,4 +22,4 @@ if __name__ == "__main__":
     with open('Text.txt', 'r') as file:
         paragraph = file.read()
 
-    type_paragraph(paragraph, delay=0.03, accuracy=0.8)
+    type_paragraph(paragraph, delay=0.02, accuracy=0.8)
