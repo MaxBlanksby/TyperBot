@@ -1,2 +1,2 @@
-pyautogui==0.9.54
-keyboard==0.13.5
+pyautogui==0.9.54   # Latest PyAutoGUI release  [oai_citation_attribution:0‡PyPI](https://pypi.org/project/PyAutoGUI/?utm_source=chatgpt.com)
+pynput==1.8.1      # Latest pynput release  [oai_citation_attribution:1‡PyPI](https://pypi.org/project/pynput/?utm_source=chatgpt.com)
