@@ -21,7 +21,6 @@ class TypingGUI:
 
         self.hotkey_listener = GlobalHotKeys(hotkeys)
         self.hotkey_listener.start()
-
         # Text area for the paragraph
         self.text_area = scrolledtext.ScrolledText(master, wrap=tk.WORD, width=60, height=20)
         self.text_area.pack(padx=10, pady=10)
