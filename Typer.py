@@ -1,6 +1,20 @@
 import sys
-import tkinter as tk
-from tkinter import scrolledtext, messagebox
+try:
+    import tkinter as tk
+    from tkinter import scrolledtext, messagebox
+except ImportError:
+    import sys
+    msg = (
+        "Tkinter is not installed, so the Auto Typer window cannot be shown.\n\n"
+        "How to install Tkinter:\n"
+        "  • Ubuntu/Debian: sudo apt-get update && sudo apt-get install -y python3-tk\n"
+        "  • macOS (Homebrew Python): brew install python-tk\n"
+        "  • Windows (python.org installer): Tkinter is included by default. Reinstall Python if missing.\n\n"
+        "After installing, run this program again."
+    )
+    # Use plain stderr so it still shows even without any GUI support.
+    sys.stderr.write(msg + "\n")
+    sys.exit(1)
 import pyautogui
 import time
 import random
